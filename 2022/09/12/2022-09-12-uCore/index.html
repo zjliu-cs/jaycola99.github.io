@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="jaycola99">
+    
+    <title>
+        
+            2022-09-12 uCore |
+        
+        Zhenjie Liu
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/brands.min.css">
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"jaycola99.github.io","root":"/","language":"zh-CN"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":false,"init_open":true},"style":{"primary_color":"#0066CC","avatar":"/images/logo.svg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"background_img":"/images/bg.svg","description":"人生海海 山山而川"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true,"style":"default"},"code_block":{},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"twikoo","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":"jaycola99","repository":"jaycola99.github.io","client_id":"aae6d46b3be9fcc4c184","client_secret":"97ede6ce8aca9ed3653f3f216ef5466a25f0a543"},"twikoo":{"env_id":null,"region":null}},"post":{"word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false,"auto":false,"custom_label_list":["Trainee","Engineer","Architect","CTO","BOSS"]}},"version":"3.5.2"};
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"};
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="logo-title" href="/">
+               Zhenjie Liu
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">2022-09-12 uCore</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/logo.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">jaycola99</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2022-09-12 13:23:51</span>
+        <span class="mobile">2022-09-12 13:23</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2022-09-12 16:55:48</span>
+    </span>
+    
+    
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                <h1 id="GDB常用命令"><a href="#GDB常用命令" class="headerlink" title="GDB常用命令"></a>GDB常用命令</h1><h2 id="查看内存"><a href="#查看内存" class="headerlink" title="查看内存"></a>查看内存</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">x /nfu &lt;addr&gt;          //x 是 examine 的缩写</span><br></pre></td></tr></table></figure>
+
+<h3 id="n：要显示的内存单元的个数"><a href="#n：要显示的内存单元的个数" class="headerlink" title="n：要显示的内存单元的个数"></a>n：要显示的内存单元的个数</h3><h3 id="f：显示方式-可取如下值"><a href="#f：显示方式-可取如下值" class="headerlink" title="f：显示方式, 可取如下值"></a>f：显示方式, 可取如下值</h3><table>
+<thead>
+<tr>
+<th>x</th>
+<th>按十六进制格式显示变量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>d</td>
+<td>按十进制格式显示变量</td>
+</tr>
+<tr>
+<td>u</td>
+<td>按十进制格式显示无符号整型</td>
+</tr>
+<tr>
+<td>o</td>
+<td>按八进制格式显示变量</td>
+</tr>
+<tr>
+<td>t</td>
+<td>按二进制格式显示变量</td>
+</tr>
+<tr>
+<td>a</td>
+<td>按十六进制格式显示变量</td>
+</tr>
+<tr>
+<td>i</td>
+<td>指令地址格式</td>
+</tr>
+<tr>
+<td>c</td>
+<td>按字符格式显示变量</td>
+</tr>
+<tr>
+<td>f</td>
+<td>按浮点数格式显示变量</td>
+</tr>
+</tbody></table>
+<h3 id="u表示一个地址单元的长度"><a href="#u表示一个地址单元的长度" class="headerlink" title="u表示一个地址单元的长度"></a>u表示一个地址单元的长度</h3><table>
+<thead>
+<tr>
+<th>b</th>
+<th>单字节</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>h</td>
+<td>双字节</td>
+</tr>
+<tr>
+<td>w</td>
+<td>四字节</td>
+</tr>
+<tr>
+<td>g</td>
+<td>八字节</td>
+</tr>
+</tbody></table>
+<h1 id="分段机制"><a href="#分段机制" class="headerlink" title="分段机制"></a>分段机制</h1><p>逻辑地址、段描述符、段描述符表、段选择子（段寄存器，用于定位段描述符表中表项的索引）</p>
+<h2 id="段描述符"><a href="#段描述符" class="headerlink" title="段描述符"></a>段描述符</h2><p>由三个参数进行定义：段基地址（Base Address）、段界限（Limit）、段属性（Attributes）</p>
+<h3 id="段基地址"><a href="#段基地址" class="headerlink" title="段基地址"></a>段基地址</h3><p>规定线性地址空间中段的起始地址。长32位。</p>
+<p>80386保护模式下，基地址长度必须与寻址地址的长度相同，所以任何一个段都可以从32位线性地址空间中的任何一个字节开始。而在实模式下，边界必须被16整除。</p>
+<h3 id="段界限"><a href="#段界限" class="headerlink" title="段界限"></a>段界限</h3><p>规定段的大小。保护模式下，用20位标识，可以以字节为单位或4K字节为单位。</p>
+<h3 id="段属性"><a href="#段属性" class="headerlink" title="段属性"></a>段属性</h3><h1 id="AT-amp-T汇编语言"><a href="#AT-amp-T汇编语言" class="headerlink" title="AT&amp;T汇编语言"></a>AT&amp;T汇编语言</h1><h2 id="movw-S-D"><a href="#movw-S-D" class="headerlink" title="movw S, D"></a>movw S, D</h2><p>S  –&gt; D穿字</p>
+<h2 id="DS"><a href="#DS" class="headerlink" title="DS"></a>DS</h2><p>段寄存器Data Segment，存放数据段的数据地址</p>
+<h2 id="ES"><a href="#ES" class="headerlink" title="ES"></a>ES</h2><p>扩展段寄存器Extra Segment，当所给的几个段寄存器不够时用这个</p>
+<h2 id="CS"><a href="#CS" class="headerlink" title="CS"></a>CS</h2><p>代码段寄存器Code Segment。存放代码段</p>
+<h2 id="SS"><a href="#SS" class="headerlink" title="SS"></a>SS</h2><p>栈段寄存器，和sp一起用于栈。相当于堆栈段的首地址，sp相当于堆栈段的偏移地址</p>
+<h2 id="testb-S2-S1"><a href="#testb-S2-S1" class="headerlink" title="testb S2,S1"></a>testb S2,S1</h2><p>S1 &amp; S2，测试字节，与关系</p>
+<h2 id="code16-x2F-32"><a href="#code16-x2F-32" class="headerlink" title=".code16&#x2F;32"></a>.code16&#x2F;32</h2><p>生成16&#x2F;32位汇编代码</p>
+<h2 id="global-xxx"><a href="#global-xxx" class="headerlink" title=".global xxx"></a>.global xxx</h2><p>定义xxx作为程序入口</p>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
+        <li>
+            <span class="type">本文标题</span>：<span class="content">2022-09-12 uCore</span>
+        </li>
+        <li>
+            <span class="type">本文作者</span>：<span class="content">jaycola99</span>
+        </li>
+        <li>
+            <span class="type">创建时间</span>：<span class="content">2022-09-12 13:23:51</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2022/09/12/2022-09-12-uCore/</span>
+        </li>
+        <li>
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2022/09/12/A20%E5%9C%B0%E5%9D%80%E7%BA%BF%E7%9A%84%E7%94%A8%E5%A4%84/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">A20地址线的用处</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2022/09/11/2022-09-11-Ucore/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">2022-09-11 uCore</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments"></i>&nbsp;评论
+    </div>
+    
+        
+            
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#GDB%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">1.</span> <span class="nav-text">GDB常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E5%86%85%E5%AD%98"><span class="nav-number">1.1.</span> <span class="nav-text">查看内存</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#n%EF%BC%9A%E8%A6%81%E6%98%BE%E7%A4%BA%E7%9A%84%E5%86%85%E5%AD%98%E5%8D%95%E5%85%83%E7%9A%84%E4%B8%AA%E6%95%B0"><span class="nav-number">1.1.1.</span> <span class="nav-text">n：要显示的内存单元的个数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#f%EF%BC%9A%E6%98%BE%E7%A4%BA%E6%96%B9%E5%BC%8F-%E5%8F%AF%E5%8F%96%E5%A6%82%E4%B8%8B%E5%80%BC"><span class="nav-number">1.1.2.</span> <span class="nav-text">f：显示方式, 可取如下值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u%E8%A1%A8%E7%A4%BA%E4%B8%80%E4%B8%AA%E5%9C%B0%E5%9D%80%E5%8D%95%E5%85%83%E7%9A%84%E9%95%BF%E5%BA%A6"><span class="nav-number">1.1.3.</span> <span class="nav-text">u表示一个地址单元的长度</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%86%E6%AE%B5%E6%9C%BA%E5%88%B6"><span class="nav-number">2.</span> <span class="nav-text">分段机制</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%AE%B5%E6%8F%8F%E8%BF%B0%E7%AC%A6"><span class="nav-number">2.1.</span> <span class="nav-text">段描述符</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AE%B5%E5%9F%BA%E5%9C%B0%E5%9D%80"><span class="nav-number">2.1.1.</span> <span class="nav-text">段基地址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AE%B5%E7%95%8C%E9%99%90"><span class="nav-number">2.1.2.</span> <span class="nav-text">段界限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AE%B5%E5%B1%9E%E6%80%A7"><span class="nav-number">2.1.3.</span> <span class="nav-text">段属性</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#AT-amp-T%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80"><span class="nav-number">3.</span> <span class="nav-text">AT&amp;T汇编语言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#movw-S-D"><span class="nav-number">3.1.</span> <span class="nav-text">movw S, D</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DS"><span class="nav-number">3.2.</span> <span class="nav-text">DS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ES"><span class="nav-number">3.3.</span> <span class="nav-text">ES</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CS"><span class="nav-number">3.4.</span> <span class="nav-text">CS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SS"><span class="nav-number">3.5.</span> <span class="nav-text">SS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#testb-S2-S1"><span class="nav-number">3.6.</span> <span class="nav-text">testb S2,S1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#code16-x2F-32"><span class="nav-number">3.7.</span> <span class="nav-text">.code16&#x2F;32</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#global-xxx"><span class="nav-number">3.8.</span> <span class="nav-text">.global xxx</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2021</span> -
+            
+            2022
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">jaycola99</a>
+            
+        </div>
+        
+            <script async data-pjax
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.5.2</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/dark-light-toggle.js"></script>
+
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/local-search.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/code-block.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/lazyload.js"></script>
+
+
+<div class="post-scripts pjax">
+    
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/post-helper.js"></script>
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/anime.min.js"></script>
+        
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/toc.js"></script>
+        
+    
+</div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            KEEP.refresh();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>

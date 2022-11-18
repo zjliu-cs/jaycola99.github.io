@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="jaycola99">
+    
+    <title>
+        
+            2022-09-11 uCore |
+        
+        Zhenjie Liu
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/fontawesome/css/brands.min.css">
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"jaycola99.github.io","root":"/","language":"zh-CN"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":false,"init_open":true},"style":{"primary_color":"#0066CC","avatar":"/images/logo.svg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"background_img":"/images/bg.svg","description":"人生海海 山山而川"},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":true,"preload":true},"code_copy":{"enable":true,"style":"default"},"code_block":{},"side_tools":{},"pjax":{"enable":true},"lazyload":{"enable":true},"comment":{"enable":true,"use":"twikoo","valine":{"appid":null,"appkey":null,"placeholder":null},"gitalk":{"github_id":"jaycola99","repository":"jaycola99.github.io","client_id":"aae6d46b3be9fcc4c184","client_secret":"97ede6ce8aca9ed3653f3f216ef5466a25f0a543"},"twikoo":{"env_id":null,"region":null}},"post":{"word_count":{"enable":true,"wordcount":true,"min2read":false},"author_label":{"enable":false,"auto":false,"custom_label_list":["Trainee","Engineer","Architect","CTO","BOSS"]}},"version":"3.5.2"};
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"};
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="logo-title" href="/">
+               Zhenjie Liu
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">2022-09-11 uCore</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/logo.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">jaycola99</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2022-09-11 10:21:29</span>
+        <span class="mobile">2022-09-11 10:21</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2022-09-13 19:59:43</span>
+    </span>
+    
+    
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                <h1 id="Intel-80386运行模式"><a href="#Intel-80386运行模式" class="headerlink" title="Intel 80386运行模式"></a>Intel 80386运行模式</h1><h2 id="实模式"><a href="#实模式" class="headerlink" title="实模式"></a>实模式</h2><p>该状态下软甲可访问的物理内存空间不能超过1MB。将物理内存看成分段的区域，程序代码和数据位于不同的区域，操作系统和用户程序没有区别对待，每个指针都是指向实际的物理地址。</p>
+<h2 id="保护模式"><a href="#保护模式" class="headerlink" title="保护模式"></a>保护模式</h2><p>确保应用程序无法对操作系统进行破坏</p>
+<p>支持内存分页机制，多任务和优先级机制</p>
+<p>不同的程序可以运行在不同的特权级上，有0-3四个特权级。操作系统运行在最高的特权级0上</p>
+<h2 id="SMM模式"><a href="#SMM模式" class="headerlink" title="SMM模式"></a>SMM模式</h2><h2 id="虚拟8086模式"><a href="#虚拟8086模式" class="headerlink" title="虚拟8086模式"></a>虚拟8086模式</h2><h1 id="分页分段机制"><a href="#分页分段机制" class="headerlink" title="分页分段机制"></a>分页分段机制</h1><p>分段机制启动、分页机制未启动：逻辑地址—&gt;段处理机制—&gt;线性地址&#x3D;物理地址</p>
+<p>分段机制和分页机制都启动：逻辑地址—&gt;段处理机制—&gt;线性地址—&gt;页处理机制—&gt;物理地址</p>
+<h1 id="gcc各参数"><a href="#gcc各参数" class="headerlink" title="gcc各参数"></a>gcc各参数</h1><p>-fno-builtin 除非用_builtlin_前缀，否则不进行builtin函数的优化</p>
+<p>-Wall 生成所有警告信息</p>
+<p>-ggdb	倾向于给GDB使用的debug信息</p>
+<p>-m32&#x2F;64	只当编译为32&#x2F;64位应用程序</p>
+<p>-gstabs 	以stabs格式声称调试信息，不包括gdb调试信息</p>
+<p>-nostdinc	使编译器不在系统默认的头文件目录里找头文件，一般和-l联合使用，明确限定头文件的位置</p>
+<p>-fno-stack-protector	关闭栈保护</p>
+<h1 id="ucore-img文件生成过程"><a href="#ucore-img文件生成过程" class="headerlink" title="ucore.img文件生成过程"></a>ucore.img文件生成过程</h1><p>从内核&#x2F;kern&#x2F;的init文件出发</p>
+<p>init.c -&gt; stdio.c -&gt; readline.c -&gt; panic.c -&gt; kdebug.c -&gt; kmonitor.c -&gt; clock.c -&gt; console.c -&gt; picirq.c -&gt; intr.c -&gt; trap.c -&gt; vectors.c -&gt; trapentry.S -&gt; pmm.c -&gt; string.c -&gt; printfmt.c（到这里，来了一个<code>ld /bin/kernel</code>）</p>
+<p>生成了kernel</p>
+<p>接下来是编译&#x2F;boot&#x2F;和&#x2F;tools&#x2F;的文件来生成bootblock</p>
+<p>bootsam.S -&gt; bootmain.S -&gt; (&#x2F;tools&#x2F;)sign.c</p>
+<p>到最后，是将obj&#x2F;boot&#x2F;bootasm.o和obj&#x2F;boot&#x2F;bootmain.o文件编译为bootblock.o文件</p>
+<p>生成的out文件大小是488bytes，小于boot文件的512大小限制，故成功</p>
+<h1 id="关于uCore生ucore-img的命令解释"><a href="#关于uCore生ucore-img的命令解释" class="headerlink" title="关于uCore生ucore.img的命令解释"></a>关于uCore生ucore.img的命令解释</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//生成一个有10000个块的文件，每个块默认512字节，用0填充</span><br><span class="line">dd if=/dev/zero of=bin/ucore.img count=10000</span><br><span class="line">//把bootblock中的文件写到第一个块</span><br><span class="line">dd if=bin/bootblock of=bin/ucore.img conv=notrunc</span><br><span class="line">//从第二个块开始写kernel的内容</span><br><span class="line">dd if=bin/kernel of=bin/ucore.img seek=1 conv=notrunc</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="一个被系统认为是符合规范的硬盘主引导扇区的特征"><a href="#一个被系统认为是符合规范的硬盘主引导扇区的特征" class="headerlink" title="一个被系统认为是符合规范的硬盘主引导扇区的特征"></a>一个被系统认为是符合规范的硬盘主引导扇区的特征</h1><p>从sign.c的代码来看，一个磁盘主引导扇区只有512字节，倒数第二个字节是0x55 倒数第一个字节是0xAA</p>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
+        <li>
+            <span class="type">本文标题</span>：<span class="content">2022-09-11 uCore</span>
+        </li>
+        <li>
+            <span class="type">本文作者</span>：<span class="content">jaycola99</span>
+        </li>
+        <li>
+            <span class="type">创建时间</span>：<span class="content">2022-09-11 10:21:29</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2022/09/11/2022-09-11-Ucore/</span>
+        </li>
+        <li>
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/2022/09/12/2022-09-12-uCore/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">2022-09-12 uCore</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/2022/08/23/20220823/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">20220823</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+                <div class="comment-container">
+                    
+<div class="comments-container">
+    <div id="comments-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments"></i>&nbsp;评论
+    </div>
+    
+        
+            
+
+
+
+        
+    
+</div>
+
+                </div>
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intel-80386%E8%BF%90%E8%A1%8C%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">Intel 80386运行模式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9E%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.1.</span> <span class="nav-text">实模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BF%9D%E6%8A%A4%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.2.</span> <span class="nav-text">保护模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SMM%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.3.</span> <span class="nav-text">SMM模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%99%9A%E6%8B%9F8086%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.4.</span> <span class="nav-text">虚拟8086模式</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%86%E9%A1%B5%E5%88%86%E6%AE%B5%E6%9C%BA%E5%88%B6"><span class="nav-number">2.</span> <span class="nav-text">分页分段机制</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#gcc%E5%90%84%E5%8F%82%E6%95%B0"><span class="nav-number">3.</span> <span class="nav-text">gcc各参数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ucore-img%E6%96%87%E4%BB%B6%E7%94%9F%E6%88%90%E8%BF%87%E7%A8%8B"><span class="nav-number">4.</span> <span class="nav-text">ucore.img文件生成过程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EuCore%E7%94%9Fucore-img%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A7%A3%E9%87%8A"><span class="nav-number">5.</span> <span class="nav-text">关于uCore生ucore.img的命令解释</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E8%A2%AB%E7%B3%BB%E7%BB%9F%E8%AE%A4%E4%B8%BA%E6%98%AF%E7%AC%A6%E5%90%88%E8%A7%84%E8%8C%83%E7%9A%84%E7%A1%AC%E7%9B%98%E4%B8%BB%E5%BC%95%E5%AF%BC%E6%89%87%E5%8C%BA%E7%9A%84%E7%89%B9%E5%BE%81"><span class="nav-number">6.</span> <span class="nav-text">一个被系统认为是符合规范的硬盘主引导扇区的特征</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2021</span> -
+            
+            2022
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">jaycola99</a>
+            
+        </div>
+        
+            <script async data-pjax
+                    src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    访问人数&nbsp;<span id="busuanzi_value_site_uv"></span>&ensp;
+                
+                
+                    总访问量&nbsp;<span id="busuanzi_value_site_pv"></span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.5.2</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="tools-item flex-center go-to-comments">
+                <i class="fas fa-comment"></i>
+                <span class="post-comments-count"></span>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/dark-light-toggle.js"></script>
+
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/local-search.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/code-block.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/lazyload.js"></script>
+
+
+<div class="post-scripts pjax">
+    
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/post-helper.js"></script>
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/anime.min.js"></script>
+        
+        
+            <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/toc.js"></script>
+        
+    
+</div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.5.2/source/js/libs/pjax.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            KEEP.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            KEEP.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            KEEP.refresh();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
